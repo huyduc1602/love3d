@@ -8,7 +8,7 @@ import SphereObject from "./SphereObject.js";
 
 const app = new App(new THREE.Vector3(0, 0, 40));
 
-const text = new TextPrimitive("AllenIverrui");
+const text = new TextPrimitive("Hoàng Huy Đức");
 text.onLoad = () => {
   text.geometry.computeBoundingBox();
   const max = text.geometry.boundingBox.max;

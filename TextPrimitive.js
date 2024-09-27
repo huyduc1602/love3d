@@ -6,7 +6,7 @@ export default class TextPrimitive extends Mesh {
     super();
     const loader = new FontLoader();
     loader.load(
-      "fonts/optimer_bold.typeface.json",
+      "fonts/Playwrite_DE_Grund_Regular.json",
       function (response) {
         this.geometry = new TextGeometry(text, {
           font: response,
